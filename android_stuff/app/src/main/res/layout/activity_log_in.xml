@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             tools:layout_editor_absoluteY="81dp" android:background="#000000">
+
+    <com.google.android.gms.common.SignInButton
+            android:id="@+id/googleLogIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="48dp" android:minWidth="120dp"
+    ></com.google.android.gms.common.SignInButton>
+
+    <Button
+            android:id="@+id/googleLogOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:onClick="onClick"
+            android:text="logout"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.731"
+            app:layout_constraintStart_toEndOf="@+id/googleLogIn" android:layout_marginBottom="44dp"
+            android:minWidth="120dp" android:background="#aaeeaa"/>
+
+    <TextView
+            android:text="Soggy Census"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4" android:layout_marginTop="16dp"
+            app:layout_constraintTop_toTopOf="parent" android:textSize="50sp" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:textColor="#aaeeaa" android:textStyle="bold"/>
+    <TextView
+            android:text="For All Your Census Viewing Needs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5" android:layout_marginTop="8dp"
+            android:textSize="20sp" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/textView4"
+            android:textColor="#ffffff"/>
+    <ImageView
+            android:layout_width="200dp"
+            android:adjustViewBounds="true"
+            android:maxWidth="60dp"
+            android:layout_gravity="center"
+            android:maxHeight="60dp"
+            android:scaleType="fitCenter"
+            android:layout_height="200dp" app:srcCompat="@drawable/thesoggyhuman"
+            android:id="@+id/imageView" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/googleLogIn" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"/>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "84049721900",
+    "firebase_url": "https://soggycensus-9154a.firebaseio.com",
+    "project_id": "soggycensus-9154a",
+    "storage_bucket": "soggycensus-9154a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84049721900:android:5afd328313537bce",
+        "android_client_info": {
+          "package_name": "com.example.sasha.finalsoftware"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84049721900-3ovmp4vp3c349r3h4hkc8latpn1sficf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sasha.finalsoftware",
+            "certificate_hash": "e39cf147f6138dab77303b7ea207ae661ee294d5"
+          }
+        },
+        {
+          "client_id": "84049721900-eov8k31j6oam07orpcntnbve2qb9rnmr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEqiORy_76KVUuVInvATz7hBTZLaOlrSU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84049721900-eov8k31j6oam07orpcntnbve2qb9rnmr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
